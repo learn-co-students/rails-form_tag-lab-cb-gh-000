@@ -1,0 +1,13 @@
+<h2>Student Form</h2>
+
+<%= form_for :student, url: students_path do |f| %>
+  <div>
+    <label>First Name</label>
+    <%= f.text_field :first_name, id: "first_name" %>
+  </div>
+  <div>
+    <label>Last Name</label>
+    <%= f.text_field :last_name, id: "last_name" %>
+  </div>
+  <button>Submit Student</button>
+<% end %>
