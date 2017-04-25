@@ -1,0 +1,8 @@
+<%= form_tag({controller: "students", action: "create"}, method: "post") do %>
+
+  <%= label_tag(:first_name, "Student Form") %>
+  <%= text_field_tag(:first_name) %>
+  <%= text_field_tag(:last_name) %>
+  <%= submit_tag("Submit Student") %>
+
+<% end %>
