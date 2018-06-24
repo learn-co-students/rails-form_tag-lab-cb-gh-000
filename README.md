@@ -1,5 +1,5 @@
 # Rails form_tag Lab
-
+i
 ## Objectives
 
 1. Build a functional Rails form using a `form_tag`
